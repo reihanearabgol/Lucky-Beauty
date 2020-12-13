@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cream-color {
+  color: #f9f7cf;
+}
+.pink-color {
+  color: #f2dcbb;
+}
+.lightgray-color {
+  color: #bbbbbb;
+}
+.gray-color {
+  color: #aaaaaa;
+}
+.footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edd6d0;
+  margin-top: 50px;
+  padding: 15px;
+}
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #edd6d0;
+  height: 200px;
+  color: darkgray;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.navigation li a.active {
+  color: white;
+  background-color: #838c9d;
+}
+.discount {
+  background-image: url('./images/christmas.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 1400px;
+  background-size: 70% 70%;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  margin: 10px;
+  border: 1px solid #aaaaaa;
+  box-shadow: 20px 5px 15px #ddd;
+}
+.category img {
+  display: flex;
+  flex-grow: 1;
+
+  width: 100%;
+  /* height:100% ; */
+}
+.category-title {
+  font-family: 'Tangerine', serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #bbbbbb;
+  text-align: center;
+}
+.st-name {
+  font-family: monoton;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 50px;
+} /* Add any CSS you need to this file. */
+
+/*-----------------------product---------------*/
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  margin: 10px;
+  border: 1px solid #aaaaaa;
+  box-shadow: 20px 5px 15px #ddd;
+}
+.product img {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  /* height:100% ; */
+}
+.product-title {
+  font-family: 'Tangerine', serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+}
+.product-description {
+  font-family: Courgette;
+  font-size: 1.5rem;
+  color: #494646;
+  padding: 5px 10px;
+  text-align: center;
+}
+.product-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.yellow {
+  color: #838c9d;
+}
+.price {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.discount {
+  background-image: url(./images/christmas.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.discount h3 {
+  font-size: 3rem;
+  color: wheat;
+  padding: 100px 0px 0px 30px;
+}
+.discount a {
+  border: 1px solid wheat;
+  background-color: #838c9d;
+  padding: 10px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: wheat;
+  margin-left: 50px;
+}
+.subscribe {
+  flex: 0 0 50%;
+  border-left: 1px solid gray;
+  text-align: center;
+
+  
+}
+
+
+/*--------------contact page style------------*/
+
+
+.contact-page {
+  /* background: radial-gradient(#fff, #ffd6d6); */
+}
+
+/* .container-contact {
+  width: 100%;
+  margin: 0px auto;
+  padding: 50px 0;
+} */
+
+.contact-box {
+  background: #ffd6d6;
+  /* display: flex; */
+}
+
+.contact-top {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-bottom {
+  flex-basis: 40%;
+  padding: 40px;
+  background: gray;
+}
+
+.container-contact h1 {
+  margin-bottom: 10px;
+}
+
+.container-contact p {
+  margin-bottom: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+}
+
+#message{
+  width: 100%;
+  border: 1px solid  black;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.input-group label{
+  margin-bottom: 5px;
+  display: block;
+}
+
+#btn-send {
+  background-color: gray;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.contact-top h3 {
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-bottom h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-bottom tr td:first-child {
+  padding-right: 20px;
+}
+
+.contact-bottom tr td {
+  padding-top: 20px;
+}
+
+.required:after{
+  content: " *";
+  color: rgb(67, 4, 240);
+
+}
+@media only screen and (max-width:600px){
+  .input-row {
+    flex-direction: column;
+  }
+}
+
